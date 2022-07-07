@@ -1,0 +1,8 @@
+CRITICAL - 2022-07-07 12:25:28 --> The action you requested is not allowed.
+#0 /home/techspir/iconect.co.ke/system/Security/Security.php(289): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 /home/techspir/iconect.co.ke/system/Filters/CSRF.php(53): CodeIgniter\Security\Security->verify()
+#2 /home/techspir/iconect.co.ke/system/Filters/Filters.php(173): CodeIgniter\Filters\CSRF->before()
+#3 /home/techspir/iconect.co.ke/system/CodeIgniter.php(392): CodeIgniter\Filters\Filters->run()
+#4 /home/techspir/iconect.co.ke/system/CodeIgniter.php(325): CodeIgniter\CodeIgniter->handleRequest()
+#5 /home/techspir/iconect.co.ke/index.php(47): CodeIgniter\CodeIgniter->run()
+#6 {main}
